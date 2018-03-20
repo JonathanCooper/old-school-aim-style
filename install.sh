@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ADIUM_MSG_STYLE_DIR="~/Library/Application Support/Adium 2.0/Message Styles/"
+ADIUM_MSG_STYLE_DIR="${HOME}/Library/Application Support/Adium 2.0/Message Styles/"
 
 if [ ! -d "${ADIUM_MSG_STYLE_DIR}" ] ; then
     echo "no adium message style dir"
