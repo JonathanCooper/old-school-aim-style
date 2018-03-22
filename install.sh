@@ -7,4 +7,4 @@ if [ ! -d "${ADIUM_MSG_STYLE_DIR}" ] ; then
     exit 1
 fi
 
-cp -pR old-school-aim-style "${ADIUM_MSG_STYLE_DIR}"
+cp -pR OldSchoolAim.AdiumMessageStyle "${ADIUM_MSG_STYLE_DIR}"
